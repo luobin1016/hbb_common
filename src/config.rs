@@ -118,8 +118,8 @@ pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
 };
 
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
+pub const RENDEZVOUS_PORT: i32 = 8080;
+pub const RELAY_PORT: i32 = 8880;
 pub const WS_RENDEZVOUS_PORT: i32 = 21118;
 pub const WS_RELAY_PORT: i32 = 21119;
 
